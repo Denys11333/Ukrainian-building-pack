@@ -1,0 +1,207 @@
+MetaFileClass {
+ Name "{A9CD29655BEDB7C8}Stores/ATB/ATB.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{69551ED99CB70FE0}" {
+     SourceMaterial "Inside_white"
+     AssignedMaterial "{09F37CA6C496CB1A}Stores/ATB/Data/Inside_white.emat"
+    }
+    MaterialAssignClass "{69551ED99CB70FD5}" {
+     SourceMaterial "Outside_wall_color"
+     AssignedMaterial "{195931130A4D12A3}Stores/ATB/Data/Outside_wall_color.emat"
+    }
+    MaterialAssignClass "{69551ED99CB70FDC}" {
+     SourceMaterial "Shop_sing"
+     AssignedMaterial "{36C0329184A13FEE}Stores/ATB/Data/Shop_sing.emat"
+    }
+    MaterialAssignClass "{69551ED99CB70FC2}" {
+     SourceMaterial "Shop_worktime"
+     AssignedMaterial "{534DBB3199646DB3}Stores/ATB/Data/Shop_worktime.emat"
+    }
+    MaterialAssignClass "{69551ED99CB70FDF}" {
+     SourceMaterial "Market_sign"
+     AssignedMaterial "{388DD41BA52E80E9}Stores/ATB/Data/Market_sign.emat"
+    }
+    MaterialAssignClass "{6955412FDCF15EE3}" {
+     SourceMaterial "Text_sing"
+     AssignedMaterial "{8659D201DDAAE073}Stores/ATB/Data/Text_sing.emat"
+    }
+    MaterialAssignClass "{6955412FFE79FCF7}" {
+     SourceMaterial "Roof"
+     AssignedMaterial "{CFF4AFFB777F9BEA}Stores/ATB/Data/Roof.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "Back wall" {
+    }
+    MeshParam "Big Shop sign" {
+    }
+    MeshParam "Enter room wall" {
+    }
+    MeshParam Floor {
+    }
+    MeshParam "Front wall" {
+    }
+    MeshParam "Glass door.001" {
+    }
+    MeshParam "Glass door.002" {
+    }
+    MeshParam "Glass door.003" {
+    }
+    MeshParam "High wall" {
+    }
+    MeshParam "Left wall" {
+    }
+    MeshParam Market {
+    }
+    MeshParam "Right wall" {
+    }
+    MeshParam Roof {
+    }
+    MeshParam "Shop sign" {
+    }
+    MeshParam "Store room wall" {
+    }
+    MeshParam Worktime {
+    }
+   }
+   GeometryParams {
+    GeometryParam "UBX_Back wall_1" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Back wall_2" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Big sing" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Floor {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Front wall" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_High wall" {
+     SurfaceProperties {
+      "{B8B5E4D549528805}Roof.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Left wall" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Market info" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Right wall" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Roof {
+     SurfaceProperties {
+      "{CD1E88AFCC8AD442}Inside white.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Store room_1" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Store room_2" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Store room_3" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UTM_Glass door.001" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UTM_Glass door.002" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UTM_Glass door.003" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{69551ED99CACE0CE}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{69551ED99CACE792}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{69551ED99CACE7E4}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{69551ED99CACE7C9}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{69551ED99CACE615}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{69551ED99CACE67A}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

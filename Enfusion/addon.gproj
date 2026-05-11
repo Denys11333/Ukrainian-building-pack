@@ -1,0 +1,8 @@
+GameProject {
+ ID "Ukrainianbuildingpack"
+ GUID "694930C4C7D46F39"
+ TITLE "Ukrainian building pack"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

@@ -1,0 +1,126 @@
+GenericEntity {
+ components {
+  MeshObject "{69551ED9BB8FBC00}" {
+   Object "{A9CD29655BEDB7C8}Stores/ATB/ATB.xob"
+  }
+  RigidBody "{69551ED94025B4E3}" {
+   ModelGeometry 1
+  }
+ }
+ coords 2101.967 42.29 2021.569
+ {
+  $grp GenericEntity {
+   {
+    components {
+     MeshObject "{69551ED9624E2D7B}" {
+      Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
+     }
+     RigidBody "{69551ED929A1149E}" {
+      ModelGeometry 1
+     }
+     SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
+      "Additional hit zones" {
+       SCR_WindowHitZone default {
+       }
+      }
+      m_fBaseHealth 1
+      m_fForceToDamageScale 350
+      m_bDeleteAfterFinalPhase 0
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{69551EDE637C67E8}" {
+        m_fPhaseHealth 1
+        m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
+       }
+      }
+      m_eMaterialSoundType BREAK_GLASS_PANE
+     }
+     RplComponent "{69551EDEDC80529E}" {
+     }
+     Hierarchy "{69551EDE9CB8DE36}" {
+     }
+    }
+    coords 12.437 2.255 10.021
+   }
+   {
+    components {
+     MeshObject "{69551ED9624E2D7B}" {
+      Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
+     }
+     RigidBody "{69551ED929A1149E}" {
+      ModelGeometry 1
+     }
+     SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
+      "Additional hit zones" {
+       SCR_WindowHitZone default {
+       }
+      }
+      m_fBaseHealth 1
+      m_fForceToDamageScale 350
+      m_bDeleteAfterFinalPhase 0
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{69551EDE637C67E8}" {
+        m_fPhaseHealth 1
+        m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
+       }
+      }
+      m_eMaterialSoundType BREAK_GLASS_PANE
+     }
+     RplComponent "{69551EDEDC80529E}" {
+     }
+     Hierarchy "{69551EDE9CB8DE36}" {
+     }
+    }
+    coords 12.441 2.23 14.01
+   }
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{CD370ECB385DE67A}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L01.et" {
+ coords 2101.529 0 1984.137
+ {
+  Building {
+   ID "555CDCE34C25178F"
+   coords 0 -0.081 0
+   {
+    GenericEntity {
+     ID "5A34CA4738935E34"
+     components {
+      SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+       "Additional hit zones" {
+        SCR_WindowHitZone Default {
+        }
+       }
+       m_aDamagePhases {
+        SCR_DamagePhaseData "{52B6E4A66D596523}" {
+        }
+       }
+      }
+     }
+     coords 0 0 0
+    }
+    GenericEntity {
+     ID "5A34CA4738935E10"
+     coords 0 0 0
+    }
+   }
+  }
+  Building {
+   ID "555CDCE34C25175E"
+   {
+    GenericEntity {
+     ID "5A34CA471970C6A9"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5690E48E37C4741B"
+   {
+    GenericEntity {
+     ID "5682790023B8AF6E"
+     coords 0 0.304 0
+    }
+   }
+  }
+ }
+}
