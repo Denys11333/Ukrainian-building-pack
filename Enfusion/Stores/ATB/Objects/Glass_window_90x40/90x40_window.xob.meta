@@ -14,17 +14,20 @@ MetaFileClass {
    }
    GeometryParams {
     GeometryParam UCX_90x40_window {
+     LayerPreset "GlassFire"
      SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
+      "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
      }
-     Mass 0
-     Margin 0
     }
    }
    Common TXOCommonClass "{69551EDAFD33F342}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass XBOX_ONE : PC {
+   GeometryParams {
+    GeometryParam UCX_90x40_window {
+    }
+   }
    Common TXOCommonClass "{69551EDAFD33F139}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
    }
   }
