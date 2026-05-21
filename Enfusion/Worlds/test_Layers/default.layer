@@ -18,15 +18,23 @@ GenericEntity Shop_ATB {
       Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
      }
      RigidBody "{69551ED929A1149E}" {
+      ResponseIndex "TinyDestructible"
       ModelGeometry 1
+      Static 1
      }
      SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
       "Additional hit zones" {
        SCR_WindowHitZone default {
+        HZDefault 1
        }
       }
       m_fBaseHealth 1
       m_fForceToDamageScale 350
+      m_DestroySpawnObjects {
+       SCR_ParticleSpawnable "{69697E6CE1E10A58}" {
+        m_Particle "{22D22AECA6B81B10}Particles/Enviroment/GlassShatter_Pane_01.ptc"
+       }
+      }
       m_bDeleteAfterFinalPhase 0
       m_aDamagePhases {
        SCR_DamagePhaseData "{69551EDE637C67E8}" {
@@ -34,7 +42,7 @@ GenericEntity Shop_ATB {
         m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
        }
       }
-      m_eMaterialSoundType BREAK_GLASS
+      m_eMaterialSoundType BREAK_GLASS_PANE
      }
      RplComponent "{69551EDEDC80529E}" {
      }
@@ -126,6 +134,7 @@ GenericEntity Shop_ATB {
      SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
       "Additional hit zones" {
        SCR_WindowHitZone default {
+        HZDefault 1
        }
       }
       m_fBaseHealth 1
@@ -280,17 +289,6 @@ GenericEntity Shop_ATB {
    }
   }
  }
-}
-GenericEntity : "{6B82AB4CBFE63D6E}Prefabs/Structures/BuildingParts/Windows/Glass_100x42/Glass_100x42.et" {
- components {
-  SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
-   m_aDamagePhases {
-    SCR_DamagePhaseData "{52B6E4A66D596523}" {
-    }
-   }
-  }
- }
- coords 2119.852 42.093 2029.394
 }
 SCR_DestructibleBuildingEntity : "{CD370ECB385DE67A}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L01.et" {
  coords 2101.529 0 1984.137

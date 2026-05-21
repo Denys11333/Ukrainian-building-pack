@@ -1,0 +1,6 @@
+MatPBRBasic {
+ RoughnessScale 3
+ MetalnessScale 3
+ BCRMap "{A2ABEF358C501541}Stores/ATB/Textures/White tile/Poliigon_TilesCeramicWhite_6956_BaseColor.edds"
+ NMOMap "{EC7CA5AE5B3D4175}Stores/ATB/Textures/White tile/Poliigon_TilesCeramicWhite_6956_Normal.edds"
+}

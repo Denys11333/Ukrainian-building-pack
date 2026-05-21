@@ -3,9 +3,9 @@ MetaFileClass {
  Configurations {
   FBXResourceClass PC {
    MaterialAssigns {
-    MaterialAssignClass "{69551ED99CB70FE0}" {
-     SourceMaterial "Inside_white"
-     AssignedMaterial "{09F37CA6C496CB1A}Stores/ATB/Data/Inside_white.emat"
+    MaterialAssignClass "{69692B5A997BF5FF}" {
+     SourceMaterial "Floor"
+     AssignedMaterial "{DB4BB884C8D6F5A6}Stores/ATB/Data/Floor.emat"
     }
     MaterialAssignClass "{69551ED99CB70FD5}" {
      SourceMaterial "Outside_wall_color"
@@ -30,6 +30,10 @@ MetaFileClass {
     MaterialAssignClass "{6955412FFE79FCF7}" {
      SourceMaterial "Roof"
      AssignedMaterial "{CFF4AFFB777F9BEA}Stores/ATB/Data/Roof.emat"
+    }
+    MaterialAssignClass "{69697E6EC11AC8C6}" {
+     SourceMaterial "Inside_wall_color"
+     AssignedMaterial "{E836845AFDE7CD8D}Stores/ATB/Data/Inside_wall_color.emat"
     }
    }
    MeshParams {
@@ -65,14 +69,16 @@ MetaFileClass {
     }
     MeshParam Worktime {
     }
+    MeshParam "Small front wall" {
+    }
+    MeshParam "Glass_wall.001" {
+    }
    }
    GeometryParams {
     GeometryParam "UBX_Back wall_1" {
      SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
      }
-     Mass 0
-     Margin 0
     }
     GeometryParam "UBX_Back wall_2" {
      SurfaceProperties {
@@ -173,6 +179,20 @@ MetaFileClass {
      Margin 0
     }
     GeometryParam "UTM_Glass door.003" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Small front wall" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Glass_wall {
      SurfaceProperties {
       "{536BF67B2052B869}material/metal.gamemat"
      }
