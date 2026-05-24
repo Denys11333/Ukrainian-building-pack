@@ -7,13 +7,15 @@ MetaFileClass {
      SourceMaterial "Glass"
      AssignedMaterial "{2E1B6D8D269FE103}Stores/ATB/Objects/Display_Fridge_door/Data/Glass.emat"
     }
-    MaterialAssignClass "{696A13DEA4B3E848}" {
-     SourceMaterial "Material"
-     AssignedMaterial "{87F5D6D8FA13C9D7}Stores/ATB/Objects/Display_Fridge_door/Data/Material.emat"
+    MaterialAssignClass "{69711DCDC35645D0}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{4CDE3C8472513799}Stores/ATB/Objects/Display_Fridge_door/Data/DefaultGeneratedMaterial.emat"
     }
    }
    MeshParams {
     MeshParam Display_Fridge_door {
+    }
+    MeshParam Door_handler {
     }
    }
    Common TXOCommonClass "{696A13DEA4AC3515}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
