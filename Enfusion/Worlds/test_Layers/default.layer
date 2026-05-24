@@ -1,315 +1,448 @@
-$grp GenericEntity {
- Shop_ATB {
-  components {
-   MeshObject "{69551ED9BB8FBC00}" {
-    Object "{A9CD29655BEDB7C8}Stores/ATB/ATB.xob"
-   }
-   RigidBody "{69551ED94025B4E3}" {
-    ModelGeometry 1
-   }
-   Hierarchy "{6961087773C1AB0B}" {
-   }
+GenericEntity Shop_ATB {
+ components {
+  MeshObject "{69551ED9BB8FBC00}" {
+   Object "{A9CD29655BEDB7C8}Stores/ATB/ATB.xob"
   }
-  coords 2101.466 42.125 2021.569
-  {
-   $grp GenericEntity {
-    window_90x40_1_left {
-     components {
-      MeshObject "{69551ED9624E2D7B}" {
-       Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
-      }
-      RigidBody "{69551ED929A1149E}" {
-       ResponseIndex "TinyDestructible"
-       ModelGeometry 1
-       Static 1
-      }
-      SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
-       "Additional hit zones" {
-        SCR_WindowHitZone default {
-         HZDefault 1
-        }
-       }
-       m_fBaseHealth 1
-       m_fForceToDamageScale 350
-       m_DestroySpawnObjects {
-        SCR_ParticleSpawnable "{69697E6CE1E10A58}" {
-         m_Particle "{22D22AECA6B81B10}Particles/Enviroment/GlassShatter_Pane_01.ptc"
-        }
-       }
-       m_bDeleteAfterFinalPhase 0
-       m_aDamagePhases {
-        SCR_DamagePhaseData "{69551EDE637C67E8}" {
-         m_fPhaseHealth 1
-         m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
-        }
-       }
-       m_eMaterialSoundType BREAK_GLASS_PANE
-      }
-      RplComponent "{69551EDEDC80529E}" {
-      }
-      Hierarchy "{69551EDE9CB8DE36}" {
-      }
-     }
-     coords 12.454 2.255 10.021
-    }
-    window_90x40_1_right {
-     components {
-      MeshObject "{69551ED9624E2D7B}" {
-       Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
-      }
-      RigidBody "{69551ED929A1149E}" {
-       ResponseIndex "TinyDestructible"
-       ModelGeometry 1
-       Static 1
-      }
-      SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
-       "Additional hit zones" {
-        SCR_WindowHitZone default {
-         HZDefault 1
-         "Kinetic multiplier" 4
-         "Explosive multiplier" 90
-        }
-       }
-       m_fBaseHealth 1
-       m_fForceToDamageScale 350
-       m_DestroySpawnObjects {
-        SCR_ParticleSpawnable "{6961087449F2D16D}" {
-         m_Particle "{22D22AECA6B81B10}Particles/Enviroment/GlassShatter_Pane_01.ptc"
-        }
-       }
-       m_bDeleteAfterFinalPhase 0
-       m_aDamagePhases {
-        SCR_DamagePhaseData "{69551EDE637C67E8}" {
-         m_fPhaseHealth 1
-         m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
-        }
-       }
-       m_eMaterialSoundType BREAK_GLASS_PANE
-      }
-      RplComponent "{69551EDEDC80529E}" {
-      }
-      Hierarchy "{69551EDE9CB8DE36}" {
-      }
-     }
-     coords 12.453 2.23 14.01
-    }
-    window_90x40_2_right {
-     components {
-      MeshObject "{69551ED9624E2D7B}" {
-       Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
-      }
-      RigidBody "{69551ED929A1149E}" {
-       ModelGeometry 1
-      }
-      SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
-       "Additional hit zones" {
-        SCR_WindowHitZone default {
-        }
-       }
-       m_fBaseHealth 1
-       m_fForceToDamageScale 350
-       m_bDeleteAfterFinalPhase 0
-       m_aDamagePhases {
-        SCR_DamagePhaseData "{69551EDE637C67E8}" {
-         m_fPhaseHealth 1
-         m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
-        }
-       }
-       m_eMaterialSoundType BREAK_GLASS_PANE
-      }
-      RplComponent "{69551EDEDC80529E}" {
-      }
-      Hierarchy "{69551EDE9CB8DE36}" {
-      }
-     }
-     coords 6.957 2.231 14.009
-    }
-    window_90x40_2_left {
-     components {
-      MeshObject "{69551ED9624E2D7B}" {
-       Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
-      }
-      RigidBody "{69551ED929A1149E}" {
-       ModelGeometry 1
-      }
-      SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
-       "Additional hit zones" {
-        SCR_WindowHitZone default {
-         HZDefault 1
-        }
-       }
-       m_fBaseHealth 1
-       m_fForceToDamageScale 350
-       m_bDeleteAfterFinalPhase 0
-       m_aDamagePhases {
-        SCR_DamagePhaseData "{69551EDE637C67E8}" {
-         m_fPhaseHealth 1
-         m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
-        }
-       }
-       m_eMaterialSoundType BREAK_GLASS_PANE
-      }
-      RplComponent "{69551EDEDC80529E}" {
-      }
-      Hierarchy "{69551EDE9CB8DE36}" {
-      }
-     }
-     coords 6.955 2.207 9.999
-    }
-    window_90x40_3_left {
-     components {
-      MeshObject "{69551ED9624E2D7B}" {
-       Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
-      }
-      RigidBody "{69551ED929A1149E}" {
-       ModelGeometry 1
-      }
-      SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
-       "Additional hit zones" {
-        SCR_WindowHitZone default {
-        }
-       }
-       m_fBaseHealth 1
-       m_fForceToDamageScale 350
-       m_bDeleteAfterFinalPhase 0
-       m_aDamagePhases {
-        SCR_DamagePhaseData "{69551EDE637C67E8}" {
-         m_fPhaseHealth 1
-         m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
-        }
-       }
-       m_eMaterialSoundType BREAK_GLASS_PANE
-      }
-      RplComponent "{69551EDEDC80529E}" {
-      }
-      Hierarchy "{69551EDE9CB8DE36}" {
-      }
-     }
-     coords 11.427 2.217 9.451
-     angles 0 -89.998 0
-    }
-    window_90x40_3_right {
-     components {
-      MeshObject "{69551ED9624E2D7B}" {
-       Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
-      }
-      RigidBody "{69551ED929A1149E}" {
-       ModelGeometry 1
-      }
-      SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
-       "Additional hit zones" {
-        SCR_WindowHitZone default {
-        }
-       }
-       m_fBaseHealth 1
-       m_fForceToDamageScale 350
-       m_bDeleteAfterFinalPhase 0
-       m_aDamagePhases {
-        SCR_DamagePhaseData "{69551EDE637C67E8}" {
-         m_fPhaseHealth 1
-         m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
-        }
-       }
-       m_eMaterialSoundType BREAK_GLASS_PANE
-      }
-      RplComponent "{69551EDEDC80529E}" {
-      }
-      Hierarchy "{69551EDE9CB8DE36}" {
-      }
-     }
-     coords 7.509 2.231 9.451
-     angles 0 -90 0
-    }
-    window_90_190_1_left {
-     components {
-      MeshObject "{6961087333B1D166}" {
-       Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
-      }
-      RigidBody "{6961087282256BC0}" {
-       ModelGeometry 1
-      }
-     }
-     coords 12.464 0.982 10.029
-    }
-    window_90_190_1_right {
-     components {
-      MeshObject "{696108732CE72C69}" {
-       Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
-      }
-      RigidBody "{696108728CC4EC5B}" {
-       ModelGeometry 1
-      }
-     }
-     coords 12.446 0.975 14.023
-    }
-    window_90_190_3_left {
-     components {
-      MeshObject "{69610872D0E26880}" {
-       Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
-      }
-      RigidBody "{696108728AFBC72A}" {
-       ModelGeometry 1
-      }
-     }
-     coords 11.442 0.957 9.423
-     angles 0 90 0
-    }
-    window_90_190_3_right {
-     components {
-      MeshObject "{69610872CAA64361}" {
-       Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
-      }
-      RigidBody "{696108728843D991}" {
-       ModelGeometry 1
-      }
-     }
-     coords 7.471 0.945 9.445
-     angles 0 90 0
-    }
-    window_90_190_2_left {
-     components {
-      MeshObject "{69610872F108CB07}" {
-       Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
-      }
-      RigidBody "{69610872B58CC0C7}" {
-       ModelGeometry 1
-      }
-     }
-     coords 6.973 0.981 10.002
-    }
-    window_90_190_2_right {
-     components {
-      MeshObject "{69610872F9BF12C2}" {
-       Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
-      }
-      RigidBody "{6961087285BD8F6A}" {
-       ModelGeometry 1
-      }
-     }
-     coords 6.959 0.972 14.017
-    }
-   }
+  RigidBody "{69551ED94025B4E3}" {
+   ModelGeometry 1
+  }
+  Hierarchy "{6961087773C1AB0B}" {
   }
  }
+ coords 1731.162 39.106 2844.249
+ angles 0 -101.611 0
  {
-  components {
-   MeshObject "{69711DCDF4FB6775}" {
-    Object "{ED2AD96454A9847B}Stores/ATB/Objects/Display_Fridge/Display_Fridge.xob"
+  $grp GenericEntity {
+   window_90x40_1_left {
+    components {
+     MeshObject "{69551ED9624E2D7B}" {
+      Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
+     }
+     RigidBody "{69551ED929A1149E}" {
+      ResponseIndex "TinyDestructible"
+      ModelGeometry 1
+      Static 1
+     }
+     SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
+      "Additional hit zones" {
+       SCR_WindowHitZone default {
+        HZDefault 1
+       }
+      }
+      m_fBaseHealth 1
+      m_fForceToDamageScale 350
+      m_DestroySpawnObjects {
+       SCR_ParticleSpawnable "{69697E6CE1E10A58}" {
+        m_Particle "{22D22AECA6B81B10}Particles/Enviroment/GlassShatter_Pane_01.ptc"
+       }
+      }
+      m_bDeleteAfterFinalPhase 0
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{69551EDE637C67E8}" {
+        m_fPhaseHealth 1
+        m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
+       }
+      }
+      m_eMaterialSoundType BREAK_GLASS_PANE
+     }
+     RplComponent "{69551EDEDC80529E}" {
+     }
+     Hierarchy "{69551EDE9CB8DE36}" {
+     }
+    }
+    coords 12.454 2.255 10.021
+   }
+   window_90x40_1_right {
+    components {
+     MeshObject "{69551ED9624E2D7B}" {
+      Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
+     }
+     RigidBody "{69551ED929A1149E}" {
+      ResponseIndex "TinyDestructible"
+      ModelGeometry 1
+      Static 1
+     }
+     SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
+      "Additional hit zones" {
+       SCR_WindowHitZone default {
+        HZDefault 1
+        "Kinetic multiplier" 4
+        "Explosive multiplier" 90
+       }
+      }
+      m_fBaseHealth 1
+      m_fForceToDamageScale 350
+      m_DestroySpawnObjects {
+       SCR_ParticleSpawnable "{6961087449F2D16D}" {
+        m_Particle "{22D22AECA6B81B10}Particles/Enviroment/GlassShatter_Pane_01.ptc"
+       }
+      }
+      m_bDeleteAfterFinalPhase 0
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{69551EDE637C67E8}" {
+        m_fPhaseHealth 1
+        m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
+       }
+      }
+      m_eMaterialSoundType BREAK_GLASS_PANE
+     }
+     RplComponent "{69551EDEDC80529E}" {
+     }
+     Hierarchy "{69551EDE9CB8DE36}" {
+     }
+    }
+    coords 12.453 2.23 14.01
+   }
+   window_90x40_2_right {
+    components {
+     MeshObject "{69551ED9624E2D7B}" {
+      Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
+     }
+     RigidBody "{69551ED929A1149E}" {
+      ModelGeometry 1
+     }
+     SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
+      "Additional hit zones" {
+       SCR_WindowHitZone default {
+       }
+      }
+      m_fBaseHealth 1
+      m_fForceToDamageScale 350
+      m_bDeleteAfterFinalPhase 0
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{69551EDE637C67E8}" {
+        m_fPhaseHealth 1
+        m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
+       }
+      }
+      m_eMaterialSoundType BREAK_GLASS_PANE
+     }
+     RplComponent "{69551EDEDC80529E}" {
+     }
+     Hierarchy "{69551EDE9CB8DE36}" {
+     }
+    }
+    coords 6.957 2.231 14.009
+   }
+   window_90x40_2_left {
+    components {
+     MeshObject "{69551ED9624E2D7B}" {
+      Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
+     }
+     RigidBody "{69551ED929A1149E}" {
+      ModelGeometry 1
+     }
+     SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
+      "Additional hit zones" {
+       SCR_WindowHitZone default {
+        HZDefault 1
+       }
+      }
+      m_fBaseHealth 1
+      m_fForceToDamageScale 350
+      m_bDeleteAfterFinalPhase 0
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{69551EDE637C67E8}" {
+        m_fPhaseHealth 1
+        m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
+       }
+      }
+      m_eMaterialSoundType BREAK_GLASS_PANE
+     }
+     RplComponent "{69551EDEDC80529E}" {
+     }
+     Hierarchy "{69551EDE9CB8DE36}" {
+     }
+    }
+    coords 6.955 2.207 9.999
+   }
+   window_90x40_3_left {
+    components {
+     MeshObject "{69551ED9624E2D7B}" {
+      Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
+     }
+     RigidBody "{69551ED929A1149E}" {
+      ModelGeometry 1
+     }
+     SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
+      "Additional hit zones" {
+       SCR_WindowHitZone default {
+       }
+      }
+      m_fBaseHealth 1
+      m_fForceToDamageScale 350
+      m_bDeleteAfterFinalPhase 0
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{69551EDE637C67E8}" {
+        m_fPhaseHealth 1
+        m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
+       }
+      }
+      m_eMaterialSoundType BREAK_GLASS_PANE
+     }
+     RplComponent "{69551EDEDC80529E}" {
+     }
+     Hierarchy "{69551EDE9CB8DE36}" {
+     }
+    }
+    coords 11.427 2.217 9.451
+    angles 0 -89.998 0
+   }
+   window_90x40_3_right {
+    components {
+     MeshObject "{69551ED9624E2D7B}" {
+      Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
+     }
+     RigidBody "{69551ED929A1149E}" {
+      ModelGeometry 1
+     }
+     SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
+      "Additional hit zones" {
+       SCR_WindowHitZone default {
+       }
+      }
+      m_fBaseHealth 1
+      m_fForceToDamageScale 350
+      m_bDeleteAfterFinalPhase 0
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{69551EDE637C67E8}" {
+        m_fPhaseHealth 1
+        m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
+       }
+      }
+      m_eMaterialSoundType BREAK_GLASS_PANE
+     }
+     RplComponent "{69551EDEDC80529E}" {
+     }
+     Hierarchy "{69551EDE9CB8DE36}" {
+     }
+    }
+    coords 7.509 2.231 9.451
+    angles 0 -90 0
+   }
+   window_90_190_1_left {
+    components {
+     MeshObject "{6961087333B1D166}" {
+      Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
+     }
+     RigidBody "{6961087282256BC0}" {
+      ModelGeometry 1
+     }
+    }
+    coords 12.464 0.982 10.029
+   }
+   window_90_190_1_right {
+    components {
+     MeshObject "{696108732CE72C69}" {
+      Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
+     }
+     RigidBody "{696108728CC4EC5B}" {
+      ModelGeometry 1
+     }
+    }
+    coords 12.446 0.975 14.023
+   }
+   window_90_190_3_left {
+    components {
+     MeshObject "{69610872D0E26880}" {
+      Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
+     }
+     RigidBody "{696108728AFBC72A}" {
+      ModelGeometry 1
+     }
+    }
+    coords 11.442 0.957 9.423
+    angles 0 90 0
+   }
+   window_90_190_3_right {
+    components {
+     MeshObject "{69610872CAA64361}" {
+      Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
+     }
+     RigidBody "{696108728843D991}" {
+      ModelGeometry 1
+     }
+    }
+    coords 7.471 0.945 9.445
+    angles 0 90 0
+   }
+   window_90_190_2_left {
+    components {
+     MeshObject "{69610872F108CB07}" {
+      Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
+     }
+     RigidBody "{69610872B58CC0C7}" {
+      ModelGeometry 1
+     }
+    }
+    coords 6.973 0.981 10.002
+   }
+   window_90_190_2_right {
+    components {
+     MeshObject "{69610872F9BF12C2}" {
+      Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
+     }
+     RigidBody "{6961087285BD8F6A}" {
+      ModelGeometry 1
+     }
+    }
+    coords 6.959 0.972 14.017
+   }
+   Display_Fridge {
+    components {
+     MeshObject "{69711DCDF4FB6775}" {
+      Object "{ED2AD96454A9847B}Stores/ATB/Objects/Display_Fridge/Display_Fridge.xob"
+     }
+    }
+    coords 0.166 -0.02 15.911
+    {
+     $grp GenericEntity {
+      door_right {
+       components {
+        DoorComponent "{69712E023BD528B1}" {
+         DoorAction SCR_DoorUserAction "{69712E02245A70F4}" {
+          ParentContextList {
+           "SCR_DoorUserAction"
+          }
+          UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+           m_sIconName "open-door"
+          }
+         }
+         OpenBothWays 0
+         DoorWidthIsXYZ X
+         AngleRange -90
+         ClosedAngle 0
+         InitialAngle 0
+        }
+        MeshObject "{69712E02ACFF4F8B}" {
+         Object "{7CE6C3E60704D26E}Stores/ATB/Objects/Display_Fridge_door_right/Display_Fridge_door_right.xob"
+        }
+        ActionsManagerComponent "{69712E01DD7E3652}" {
+         ActionContexts {
+          UserActionContext "{69712E01DB901B62}" {
+           UIInfo SCR_ActionUIInfo "{69712E01C5E29EDF}" {
+            m_sIconName "open-door"
+           }
+           ContextName "SCR_DoorUserAction"
+           Position PointInfo "{50888D37F0EB77E0}" {
+            Offset -0.5 0.9 0
+           }
+          }
+         }
+        }
+       }
+       coords 1.178 0.257 -0.488
+      }
+      door_left {
+       components {
+        DoorComponent "{69712E023EE13271}" {
+         DoorAction SCR_DoorUserAction "{69712E022E746E27}" {
+          ParentContextList {
+           "SCR_DoorUserAction"
+          }
+          UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+           m_sIconName "open-door"
+          }
+         }
+         AngleRange 85
+        }
+        MeshObject "{69712E024E544BDD}" {
+         Object "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
+        }
+        ActionsManagerComponent "{69712E01D5E2CE19}" {
+         ActionContexts {
+          UserActionContext "{69712E01D45A7A32}" {
+           UIInfo SCR_ActionUIInfo "{69712E01C3978ED8}" {
+            m_sIconName "open-door"
+           }
+           ContextName "SCR_DoorUserAction"
+           Position PointInfo "{50888D37F0EB77E0}" {
+            Offset 0.5 0.9 0
+           }
+           Radius 0.65
+          }
+         }
+        }
+       }
+       coords 0.016 0.257 -0.488
+      }
+      door_right2 {
+       components {
+        DoorComponent "{69712E023BD528B1}" {
+         DoorAction SCR_DoorUserAction "{69712E02245A70F4}" {
+          ParentContextList {
+           "SCR_DoorUserAction"
+          }
+          UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+           m_sIconName "open-door"
+          }
+         }
+         OpenBothWays 0
+         DoorWidthIsXYZ X
+         AngleRange -85
+         ClosedAngle 0
+         InitialAngle 0
+        }
+        MeshObject "{69712E02ACFF4F8B}" {
+         Object "{7CE6C3E60704D26E}Stores/ATB/Objects/Display_Fridge_door_right/Display_Fridge_door_right.xob"
+        }
+        ActionsManagerComponent "{69712E01DD7E3652}" {
+         ActionContexts {
+          UserActionContext "{69712E01DB901B62}" {
+           UIInfo SCR_ActionUIInfo "{69712E01C5E29EDF}" {
+            m_sIconName "open-door"
+           }
+           ContextName "SCR_DoorUserAction"
+           Position PointInfo "{50888D37F0EB77E0}" {
+            Offset -0.5 0.9 0
+           }
+          }
+         }
+        }
+       }
+       coords -0.02 0.257 -0.488
+      }
+      door_left2 {
+       components {
+        DoorComponent "{69712E023EE13271}" {
+         DoorAction SCR_DoorUserAction "{69712E022E746E27}" {
+          ParentContextList {
+           "SCR_DoorUserAction"
+          }
+          UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+           m_sIconName "open-door"
+          }
+         }
+        }
+        MeshObject "{69712E024E544BDD}" {
+         Object "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
+        }
+        ActionsManagerComponent "{69712E01D5E2CE19}" {
+         ActionContexts {
+          UserActionContext "{69712E01D45A7A32}" {
+           UIInfo SCR_ActionUIInfo "{69712E01C3978ED8}" {
+            m_sIconName "open-door"
+           }
+           ContextName "SCR_DoorUserAction"
+           Position PointInfo "{50888D37F0EB77E0}" {
+            Offset 0.5 0.9 0
+           }
+           Radius 0.65
+          }
+         }
+        }
+       }
+       coords -1.18 0.257 -0.488
+      }
+     }
+    }
    }
   }
-  coords 2101.602 42.105 2037.48
- }
- {
-  components {
-   MeshObject "{69711DCDFE9A0623}" {
-    Object "{AEBE22FCE12B6389}Stores/ATB/Objects/Display_Fridge_door/Display_Fridge_door.xob"
-   }
-  }
-  coords 2101.894 43.21 2036.991
  }
 }
 SCR_DestructibleBuildingEntity : "{CD370ECB385DE67A}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L01.et" {
- coords 2101.529 0 1984.137
+ coords 1776.461 0.432 2853.643
+ angles 0 -14.146 0
  {
   Building {
    ID "555CDCE34C25178F"

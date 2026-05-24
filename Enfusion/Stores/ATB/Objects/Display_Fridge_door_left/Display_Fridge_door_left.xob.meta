@@ -1,0 +1,45 @@
+MetaFileClass {
+ Name "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{69712E02AF4B39E8}" {
+     SourceMaterial "Glass"
+     AssignedMaterial "{9998ECD468D038A1}Stores/ATB/Objects/Display_Fridge_door_left/Data/Glass.emat"
+    }
+    MaterialAssignClass "{69712E02AF4B39C3}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{78B8F75AE5D31F3E}Stores/ATB/Objects/Display_Fridge_door_left/Data/DefaultGeneratedMaterial.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Display_Fridge_door {
+    }
+    MeshParam Door_handler {
+    }
+   }
+   Common TXOCommonClass "{69712E02AF471457}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{69712E02AF4714C0}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{69712E02AF471B10}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{69712E02AF471B74}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{69712E02AF471B54}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{69712E02AF471BBC}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

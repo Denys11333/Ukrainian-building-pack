@@ -87,13 +87,6 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam "UBX_Big sing" {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
     GeometryParam UBX_Floor {
      SurfaceProperties {
       "{536BF67B2052B869}material/metal.gamemat"
@@ -193,6 +186,20 @@ MetaFileClass {
      Margin 0
     }
     GeometryParam UTM_Glass_wall {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Big_Shop_sing {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UTM_Enter room_wall" {
      SurfaceProperties {
       "{536BF67B2052B869}material/metal.gamemat"
      }
