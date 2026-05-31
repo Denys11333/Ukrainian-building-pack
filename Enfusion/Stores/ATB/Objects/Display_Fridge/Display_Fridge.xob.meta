@@ -12,6 +12,15 @@ MetaFileClass {
     MeshParam Display_Fridge {
     }
    }
+   GeometryParams {
+    GeometryParam UTM_Display_Fridge {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
    Common TXOCommonClass "{696A13DEC024D82F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
   }

@@ -35,6 +35,10 @@ MetaFileClass {
      SourceMaterial "Inside_wall_color"
      AssignedMaterial "{E836845AFDE7CD8D}Stores/ATB/Data/Inside_wall_color.emat"
     }
+    MaterialAssignClass "{697EA9A6BE3482E6}" {
+     SourceMaterial "Back_door"
+     AssignedMaterial "{957CF568F89B22DA}Stores/ATB/Data/Back_door.emat"
+    }
    }
    MeshParams {
     MeshParam "Back wall" {
@@ -73,138 +77,7 @@ MetaFileClass {
     }
     MeshParam "Glass_wall.001" {
     }
-   }
-   GeometryParams {
-    GeometryParam "UBX_Back wall_1" {
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-    }
-    GeometryParam "UBX_Back wall_2" {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UBX_Floor {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam "UBX_Front wall" {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam "UBX_High wall" {
-     SurfaceProperties {
-      "{B8B5E4D549528805}Roof.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam "UBX_Left wall" {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam "UBX_Market info" {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam "UBX_Right wall" {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UBX_Roof {
-     SurfaceProperties {
-      "{CD1E88AFCC8AD442}Inside white.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam "UBX_Store room_1" {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam "UBX_Store room_2" {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam "UBX_Store room_3" {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam "UTM_Glass door.001" {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam "UTM_Glass door.002" {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam "UTM_Glass door.003" {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam "UBX_Small front wall" {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Glass_wall {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Big_Shop_sing {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam "UTM_Enter room_wall" {
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
+    MeshParam "Back_door.001" {
     }
    }
    Common TXOCommonClass "{69551ED99CACE0CE}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {

@@ -1,443 +1,1234 @@
-GenericEntity Shop_ATB {
- components {
-  MeshObject "{69551ED9BB8FBC00}" {
-   Object "{A9CD29655BEDB7C8}Stores/ATB/ATB.xob"
+$grp GenericEntity {
+ Shop_ATB {
+  components {
+   MeshObject "{69551ED9BB8FBC00}" {
+    Object "{A9CD29655BEDB7C8}Stores/ATB/ATB.xob"
+   }
+   RigidBody "{69551ED94025B4E3}" {
+    ModelGeometry 1
+   }
+   Hierarchy "{6961087773C1AB0B}" {
+   }
   }
-  RigidBody "{69551ED94025B4E3}" {
-   ModelGeometry 1
-  }
-  Hierarchy "{6961087773C1AB0B}" {
+  coords 1731.162 39.106 2844.249
+  {
+   $grp GenericEntity {
+    window_90x40_1_left {
+     components {
+      MeshObject "{69551ED9624E2D7B}" {
+       Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
+      }
+      RigidBody "{69551ED929A1149E}" {
+       ResponseIndex "TinyDestructible"
+       ModelGeometry 1
+       Static 1
+      }
+      SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
+       "Additional hit zones" {
+        SCR_WindowHitZone default {
+         HZDefault 1
+        }
+       }
+       m_fBaseHealth 1
+       m_fForceToDamageScale 350
+       m_DestroySpawnObjects {
+        SCR_ParticleSpawnable "{69697E6CE1E10A58}" {
+         m_Particle "{22D22AECA6B81B10}Particles/Enviroment/GlassShatter_Pane_01.ptc"
+        }
+       }
+       m_bDeleteAfterFinalPhase 0
+       m_aDamagePhases {
+        SCR_DamagePhaseData "{69551EDE637C67E8}" {
+         m_fPhaseHealth 1
+         m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
+        }
+       }
+       m_eMaterialSoundType BREAK_GLASS_PANE
+      }
+      RplComponent "{69551EDEDC80529E}" {
+      }
+      Hierarchy "{69551EDE9CB8DE36}" {
+      }
+     }
+     coords 12.454 2.255 10.021
+    }
+    window_90x40_1_right {
+     components {
+      MeshObject "{69551ED9624E2D7B}" {
+       Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
+      }
+      RigidBody "{69551ED929A1149E}" {
+       ResponseIndex "TinyDestructible"
+       ModelGeometry 1
+       Static 1
+      }
+      SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
+       "Additional hit zones" {
+        SCR_WindowHitZone default {
+         HZDefault 1
+         "Kinetic multiplier" 4
+         "Explosive multiplier" 90
+        }
+       }
+       m_fBaseHealth 1
+       m_fForceToDamageScale 350
+       m_DestroySpawnObjects {
+        SCR_ParticleSpawnable "{6961087449F2D16D}" {
+         m_Particle "{22D22AECA6B81B10}Particles/Enviroment/GlassShatter_Pane_01.ptc"
+        }
+       }
+       m_bDeleteAfterFinalPhase 0
+       m_aDamagePhases {
+        SCR_DamagePhaseData "{69551EDE637C67E8}" {
+         m_fPhaseHealth 1
+         m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
+        }
+       }
+       m_eMaterialSoundType BREAK_GLASS_PANE
+      }
+      RplComponent "{69551EDEDC80529E}" {
+      }
+      Hierarchy "{69551EDE9CB8DE36}" {
+      }
+     }
+     coords 12.453 2.23 14.01
+    }
+    window_90x40_2_right {
+     components {
+      MeshObject "{69551ED9624E2D7B}" {
+       Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
+      }
+      RigidBody "{69551ED929A1149E}" {
+       ModelGeometry 1
+      }
+      SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
+       "Additional hit zones" {
+        SCR_WindowHitZone default {
+        }
+       }
+       m_fBaseHealth 1
+       m_fForceToDamageScale 350
+       m_bDeleteAfterFinalPhase 0
+       m_aDamagePhases {
+        SCR_DamagePhaseData "{69551EDE637C67E8}" {
+         m_fPhaseHealth 1
+         m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
+        }
+       }
+       m_eMaterialSoundType BREAK_GLASS_PANE
+      }
+      RplComponent "{69551EDEDC80529E}" {
+      }
+      Hierarchy "{69551EDE9CB8DE36}" {
+      }
+     }
+     coords 6.957 2.231 14.009
+    }
+    window_90x40_2_left {
+     components {
+      MeshObject "{69551ED9624E2D7B}" {
+       Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
+      }
+      RigidBody "{69551ED929A1149E}" {
+       ModelGeometry 1
+      }
+      SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
+       "Additional hit zones" {
+        SCR_WindowHitZone default {
+         HZDefault 1
+        }
+       }
+       m_fBaseHealth 1
+       m_fForceToDamageScale 350
+       m_bDeleteAfterFinalPhase 0
+       m_aDamagePhases {
+        SCR_DamagePhaseData "{69551EDE637C67E8}" {
+         m_fPhaseHealth 1
+         m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
+        }
+       }
+       m_eMaterialSoundType BREAK_GLASS_PANE
+      }
+      RplComponent "{69551EDEDC80529E}" {
+      }
+      Hierarchy "{69551EDE9CB8DE36}" {
+      }
+     }
+     coords 6.955 2.207 9.999
+    }
+    window_90x40_3_left {
+     components {
+      MeshObject "{69551ED9624E2D7B}" {
+       Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
+      }
+      RigidBody "{69551ED929A1149E}" {
+       ModelGeometry 1
+      }
+      SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
+       "Additional hit zones" {
+        SCR_WindowHitZone default {
+        }
+       }
+       m_fBaseHealth 1
+       m_fForceToDamageScale 350
+       m_bDeleteAfterFinalPhase 0
+       m_aDamagePhases {
+        SCR_DamagePhaseData "{69551EDE637C67E8}" {
+         m_fPhaseHealth 1
+         m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
+        }
+       }
+       m_eMaterialSoundType BREAK_GLASS_PANE
+      }
+      RplComponent "{69551EDEDC80529E}" {
+      }
+      Hierarchy "{69551EDE9CB8DE36}" {
+      }
+     }
+     coords 11.427 2.217 9.451
+     angles 0 -89.998 0
+    }
+    window_90x40_3_right {
+     components {
+      MeshObject "{69551ED9624E2D7B}" {
+       Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
+      }
+      RigidBody "{69551ED929A1149E}" {
+       ModelGeometry 1
+      }
+      SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
+       "Additional hit zones" {
+        SCR_WindowHitZone default {
+        }
+       }
+       m_fBaseHealth 1
+       m_fForceToDamageScale 350
+       m_bDeleteAfterFinalPhase 0
+       m_aDamagePhases {
+        SCR_DamagePhaseData "{69551EDE637C67E8}" {
+         m_fPhaseHealth 1
+         m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
+        }
+       }
+       m_eMaterialSoundType BREAK_GLASS_PANE
+      }
+      RplComponent "{69551EDEDC80529E}" {
+      }
+      Hierarchy "{69551EDE9CB8DE36}" {
+      }
+     }
+     coords 7.509 2.231 9.451
+     angles 0 -90 0
+    }
+    window_90_190_1_left {
+     components {
+      MeshObject "{6961087333B1D166}" {
+       Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
+      }
+      RigidBody "{6961087282256BC0}" {
+       ModelGeometry 1
+      }
+     }
+     coords 12.464 0.982 10.029
+    }
+    window_90_190_1_right {
+     components {
+      MeshObject "{696108732CE72C69}" {
+       Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
+      }
+      RigidBody "{696108728CC4EC5B}" {
+       ModelGeometry 1
+      }
+     }
+     coords 12.446 0.975 14.023
+    }
+    window_90_190_3_left {
+     components {
+      MeshObject "{69610872D0E26880}" {
+       Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
+      }
+      RigidBody "{696108728AFBC72A}" {
+       ModelGeometry 1
+      }
+     }
+     coords 11.442 0.957 9.423
+     angles 0 90 0
+    }
+    window_90_190_3_right {
+     components {
+      MeshObject "{69610872CAA64361}" {
+       Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
+      }
+      RigidBody "{696108728843D991}" {
+       ModelGeometry 1
+      }
+     }
+     coords 7.471 0.945 9.445
+     angles 0 90 0
+    }
+    window_90_190_2_left {
+     components {
+      MeshObject "{69610872F108CB07}" {
+       Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
+      }
+      RigidBody "{69610872B58CC0C7}" {
+       ModelGeometry 1
+      }
+     }
+     coords 6.973 0.981 10.002
+    }
+    window_90_190_2_right {
+     components {
+      MeshObject "{69610872F9BF12C2}" {
+       Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
+      }
+      RigidBody "{6961087285BD8F6A}" {
+       ModelGeometry 1
+      }
+     }
+     coords 6.959 0.972 14.017
+    }
+    Display_Fridge {
+     components {
+      MeshObject "{69711DCDF4FB6775}" {
+       Object "{ED2AD96454A9847B}Stores/ATB/Objects/Display_Fridge/Display_Fridge.xob"
+      }
+      RigidBody "{697EA9A050CB4C18}" {
+       ModelGeometry 1
+      }
+     }
+     coords -1.446 -0.02 15.996
+     {
+      $grp GenericEntity {
+       door_right {
+        components {
+         DoorComponent "{69712E023BD528B1}" {
+          DoorAction SCR_DoorUserAction "{69712E02245A70F4}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          OpenBothWays 0
+          DoorWidthIsXYZ X
+          AngleRange -90
+          ClosedAngle 0
+          InitialAngle 0
+         }
+         MeshObject "{69712E02ACFF4F8B}" {
+          Object "{7CE6C3E60704D26E}Stores/ATB/Objects/Display_Fridge_door_right/Display_Fridge_door_right.xob"
+         }
+         RigidBody "{697EA9A0A53C3899}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01DD7E3652}" {
+          ActionContexts {
+           UserActionContext "{69712E01DB901B62}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C5E29EDF}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset -0.5 0.9 0
+            }
+           }
+          }
+         }
+        }
+        coords 1.178 0.257 -0.488
+       }
+       door_left {
+        components {
+         DoorComponent "{69712E023EE13271}" {
+          DoorAction SCR_DoorUserAction "{69712E022E746E27}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          AngleRange 85
+         }
+         MeshObject "{69712E024E544BDD}" {
+          Object "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
+         }
+         RigidBody "{697EA9A0B964428E}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01D5E2CE19}" {
+          ActionContexts {
+           UserActionContext "{69712E01D45A7A32}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C3978ED8}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset 0.5 0.9 0
+            }
+            Radius 0.65
+           }
+          }
+         }
+        }
+        coords 0.016 0.257 -0.488
+       }
+       door_right2 {
+        components {
+         DoorComponent "{69712E023BD528B1}" {
+          DoorAction SCR_DoorUserAction "{69712E02245A70F4}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          OpenBothWays 0
+          DoorWidthIsXYZ X
+          AngleRange -85
+          ClosedAngle 0
+          InitialAngle 0
+         }
+         MeshObject "{69712E02ACFF4F8B}" {
+          Object "{7CE6C3E60704D26E}Stores/ATB/Objects/Display_Fridge_door_right/Display_Fridge_door_right.xob"
+         }
+         RigidBody "{697EA9A0BDE9AA76}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01DD7E3652}" {
+          ActionContexts {
+           UserActionContext "{69712E01DB901B62}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C5E29EDF}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset -0.5 0.9 0
+            }
+           }
+          }
+         }
+        }
+        coords -0.02 0.257 -0.488
+       }
+       door_left2 {
+        components {
+         DoorComponent "{69712E023EE13271}" {
+          DoorAction SCR_DoorUserAction "{69712E022E746E27}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+         }
+         MeshObject "{69712E024E544BDD}" {
+          Object "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
+         }
+         RigidBody "{697EA9A0B1A3208D}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01D5E2CE19}" {
+          ActionContexts {
+           UserActionContext "{69712E01D45A7A32}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C3978ED8}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset 0.5 0.9 0
+            }
+            Radius 0.65
+           }
+          }
+         }
+        }
+        coords -1.18 0.257 -0.488
+       }
+      }
+     }
+    }
+    Cash_Register {
+     components {
+      MeshObject "{697EA9A389E397FF}" {
+       Object "{4890F213C199C515}Stores/ATB/Objects/Cash_Register/Cash_Register.xob"
+      }
+      RigidBody "{697EA9A351E6D9C0}" {
+       ModelGeometry 1
+      }
+     }
+     coords 6.325 0.886 7.177
+    }
+    Cash_Register2 {
+     components {
+      MeshObject "{697EA9A389E397FF}" {
+       Object "{4890F213C199C515}Stores/ATB/Objects/Cash_Register/Cash_Register.xob"
+      }
+      RigidBody "{697EA9A351E6D9C0}" {
+       ModelGeometry 1
+      }
+     }
+     coords 6.257 0.928 2.482
+    }
+    Cash_Register3 {
+     components {
+      MeshObject "{697EA9A389E397FF}" {
+       Object "{4890F213C199C515}Stores/ATB/Objects/Cash_Register/Cash_Register.xob"
+      }
+      RigidBody "{697EA9A351E6D9C0}" {
+       ModelGeometry 1
+      }
+     }
+     coords 6.189 0.908 -2.44
+    }
+    Cash_Register4 {
+     components {
+      MeshObject "{697EA9A389E397FF}" {
+       Object "{4890F213C199C515}Stores/ATB/Objects/Cash_Register/Cash_Register.xob"
+      }
+      RigidBody "{697EA9A351E6D9C0}" {
+       ModelGeometry 1
+      }
+     }
+     coords 6.109 0.909 -7.184
+    }
+    Cash_Register5 {
+     components {
+      MeshObject "{697EA9A389E397FF}" {
+       Object "{4890F213C199C515}Stores/ATB/Objects/Cash_Register/Cash_Register.xob"
+      }
+      RigidBody "{697EA9A351E6D9C0}" {
+       ModelGeometry 1
+      }
+     }
+     coords 6.2 0.905 -11.995
+    }
+    Display_Fridge2 {
+     components {
+      MeshObject "{69711DCDF4FB6775}" {
+       Object "{ED2AD96454A9847B}Stores/ATB/Objects/Display_Fridge/Display_Fridge.xob"
+      }
+      RigidBody "{697EA9A050CB4C18}" {
+       ModelGeometry 1
+      }
+     }
+     coords 1.083 -0.02 15.996
+     {
+      $grp GenericEntity {
+       door_right3 {
+        components {
+         DoorComponent "{69712E023BD528B1}" {
+          DoorAction SCR_DoorUserAction "{69712E02245A70F4}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          OpenBothWays 0
+          DoorWidthIsXYZ X
+          AngleRange -90
+          ClosedAngle 0
+          InitialAngle 0
+         }
+         MeshObject "{69712E02ACFF4F8B}" {
+          Object "{7CE6C3E60704D26E}Stores/ATB/Objects/Display_Fridge_door_right/Display_Fridge_door_right.xob"
+         }
+         RigidBody "{697EA9A0A53C3899}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01DD7E3652}" {
+          ActionContexts {
+           UserActionContext "{69712E01DB901B62}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C5E29EDF}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset -0.5 0.9 0
+            }
+           }
+          }
+         }
+        }
+        coords 1.178 0.257 -0.488
+       }
+       door_left3 {
+        components {
+         DoorComponent "{69712E023EE13271}" {
+          DoorAction SCR_DoorUserAction "{69712E022E746E27}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          AngleRange 85
+         }
+         MeshObject "{69712E024E544BDD}" {
+          Object "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
+         }
+         RigidBody "{697EA9A0B964428E}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01D5E2CE19}" {
+          ActionContexts {
+           UserActionContext "{69712E01D45A7A32}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C3978ED8}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset 0.5 0.9 0
+            }
+            Radius 0.65
+           }
+          }
+         }
+        }
+        coords 0.016 0.257 -0.488
+       }
+       door_right4 {
+        components {
+         DoorComponent "{69712E023BD528B1}" {
+          DoorAction SCR_DoorUserAction "{69712E02245A70F4}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          OpenBothWays 0
+          DoorWidthIsXYZ X
+          AngleRange -85
+          ClosedAngle 0
+          InitialAngle 0
+         }
+         MeshObject "{69712E02ACFF4F8B}" {
+          Object "{7CE6C3E60704D26E}Stores/ATB/Objects/Display_Fridge_door_right/Display_Fridge_door_right.xob"
+         }
+         RigidBody "{697EA9A0BDE9AA76}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01DD7E3652}" {
+          ActionContexts {
+           UserActionContext "{69712E01DB901B62}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C5E29EDF}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset -0.5 0.9 0
+            }
+           }
+          }
+         }
+        }
+        coords -0.02 0.257 -0.488
+       }
+       door_left4 {
+        components {
+         DoorComponent "{69712E023EE13271}" {
+          DoorAction SCR_DoorUserAction "{69712E022E746E27}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+         }
+         MeshObject "{69712E024E544BDD}" {
+          Object "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
+         }
+         RigidBody "{697EA9A0B1A3208D}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01D5E2CE19}" {
+          ActionContexts {
+           UserActionContext "{69712E01D45A7A32}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C3978ED8}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset 0.5 0.9 0
+            }
+            Radius 0.65
+           }
+          }
+         }
+        }
+        coords -1.18 0.257 -0.488
+       }
+      }
+     }
+    }
+    Display_Fridge3 {
+     components {
+      MeshObject "{69711DCDF4FB6775}" {
+       Object "{ED2AD96454A9847B}Stores/ATB/Objects/Display_Fridge/Display_Fridge.xob"
+      }
+      RigidBody "{697EA9A050CB4C18}" {
+       ModelGeometry 1
+      }
+     }
+     coords -6.461 -0.02 15.996
+     {
+      $grp GenericEntity {
+       door_right5 {
+        components {
+         DoorComponent "{69712E023BD528B1}" {
+          DoorAction SCR_DoorUserAction "{69712E02245A70F4}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          OpenBothWays 0
+          DoorWidthIsXYZ X
+          AngleRange -90
+          ClosedAngle 0
+          InitialAngle 0
+         }
+         MeshObject "{69712E02ACFF4F8B}" {
+          Object "{7CE6C3E60704D26E}Stores/ATB/Objects/Display_Fridge_door_right/Display_Fridge_door_right.xob"
+         }
+         RigidBody "{697EA9A0A53C3899}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01DD7E3652}" {
+          ActionContexts {
+           UserActionContext "{69712E01DB901B62}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C5E29EDF}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset -0.5 0.9 0
+            }
+           }
+          }
+         }
+        }
+        coords 1.178 0.257 -0.488
+       }
+       door_left5 {
+        components {
+         DoorComponent "{69712E023EE13271}" {
+          DoorAction SCR_DoorUserAction "{69712E022E746E27}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          AngleRange 85
+         }
+         MeshObject "{69712E024E544BDD}" {
+          Object "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
+         }
+         RigidBody "{697EA9A0B964428E}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01D5E2CE19}" {
+          ActionContexts {
+           UserActionContext "{69712E01D45A7A32}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C3978ED8}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset 0.5 0.9 0
+            }
+            Radius 0.65
+           }
+          }
+         }
+        }
+        coords 0.016 0.257 -0.488
+       }
+       door_right6 {
+        components {
+         DoorComponent "{69712E023BD528B1}" {
+          DoorAction SCR_DoorUserAction "{69712E02245A70F4}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          OpenBothWays 0
+          DoorWidthIsXYZ X
+          AngleRange -85
+          ClosedAngle 0
+          InitialAngle 0
+         }
+         MeshObject "{69712E02ACFF4F8B}" {
+          Object "{7CE6C3E60704D26E}Stores/ATB/Objects/Display_Fridge_door_right/Display_Fridge_door_right.xob"
+         }
+         RigidBody "{697EA9A0BDE9AA76}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01DD7E3652}" {
+          ActionContexts {
+           UserActionContext "{69712E01DB901B62}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C5E29EDF}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset -0.5 0.9 0
+            }
+           }
+          }
+         }
+        }
+        coords -0.02 0.257 -0.488
+       }
+       door_left6 {
+        components {
+         DoorComponent "{69712E023EE13271}" {
+          DoorAction SCR_DoorUserAction "{69712E022E746E27}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+         }
+         MeshObject "{69712E024E544BDD}" {
+          Object "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
+         }
+         RigidBody "{697EA9A0B1A3208D}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01D5E2CE19}" {
+          ActionContexts {
+           UserActionContext "{69712E01D45A7A32}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C3978ED8}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset 0.5 0.9 0
+            }
+            Radius 0.65
+           }
+          }
+         }
+        }
+        coords -1.18 0.257 -0.488
+       }
+      }
+     }
+    }
+    Display_Fridge4 {
+     components {
+      MeshObject "{69711DCDF4FB6775}" {
+       Object "{ED2AD96454A9847B}Stores/ATB/Objects/Display_Fridge/Display_Fridge.xob"
+      }
+      RigidBody "{697EA9A050CB4C18}" {
+       ModelGeometry 1
+      }
+     }
+     coords -3.945 -0.02 15.996
+     {
+      $grp GenericEntity {
+       door_right7 {
+        components {
+         DoorComponent "{69712E023BD528B1}" {
+          DoorAction SCR_DoorUserAction "{69712E02245A70F4}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          OpenBothWays 0
+          DoorWidthIsXYZ X
+          AngleRange -90
+          ClosedAngle 0
+          InitialAngle 0
+         }
+         MeshObject "{69712E02ACFF4F8B}" {
+          Object "{7CE6C3E60704D26E}Stores/ATB/Objects/Display_Fridge_door_right/Display_Fridge_door_right.xob"
+         }
+         RigidBody "{697EA9A0A53C3899}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01DD7E3652}" {
+          ActionContexts {
+           UserActionContext "{69712E01DB901B62}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C5E29EDF}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset -0.5 0.9 0
+            }
+           }
+          }
+         }
+        }
+        coords 1.178 0.257 -0.488
+       }
+       door_left7 {
+        components {
+         DoorComponent "{69712E023EE13271}" {
+          DoorAction SCR_DoorUserAction "{69712E022E746E27}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          AngleRange 85
+         }
+         MeshObject "{69712E024E544BDD}" {
+          Object "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
+         }
+         RigidBody "{697EA9A0B964428E}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01D5E2CE19}" {
+          ActionContexts {
+           UserActionContext "{69712E01D45A7A32}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C3978ED8}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset 0.5 0.9 0
+            }
+            Radius 0.65
+           }
+          }
+         }
+        }
+        coords 0.016 0.257 -0.488
+       }
+       door_right8 {
+        components {
+         DoorComponent "{69712E023BD528B1}" {
+          DoorAction SCR_DoorUserAction "{69712E02245A70F4}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          OpenBothWays 0
+          DoorWidthIsXYZ X
+          AngleRange -85
+          ClosedAngle 0
+          InitialAngle 0
+         }
+         MeshObject "{69712E02ACFF4F8B}" {
+          Object "{7CE6C3E60704D26E}Stores/ATB/Objects/Display_Fridge_door_right/Display_Fridge_door_right.xob"
+         }
+         RigidBody "{697EA9A0BDE9AA76}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01DD7E3652}" {
+          ActionContexts {
+           UserActionContext "{69712E01DB901B62}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C5E29EDF}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset -0.5 0.9 0
+            }
+           }
+          }
+         }
+        }
+        coords -0.02 0.257 -0.488
+       }
+       door_left8 {
+        components {
+         DoorComponent "{69712E023EE13271}" {
+          DoorAction SCR_DoorUserAction "{69712E022E746E27}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+         }
+         MeshObject "{69712E024E544BDD}" {
+          Object "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
+         }
+         RigidBody "{697EA9A0B1A3208D}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01D5E2CE19}" {
+          ActionContexts {
+           UserActionContext "{69712E01D45A7A32}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C3978ED8}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset 0.5 0.9 0
+            }
+            Radius 0.65
+           }
+          }
+         }
+        }
+        coords -1.18 0.257 -0.488
+       }
+      }
+     }
+    }
+    Display_Fridge5 {
+     components {
+      MeshObject "{69711DCDF4FB6775}" {
+       Object "{ED2AD96454A9847B}Stores/ATB/Objects/Display_Fridge/Display_Fridge.xob"
+      }
+      RigidBody "{697EA9A050CB4C18}" {
+       ModelGeometry 1
+      }
+     }
+     coords 3.563 -0.02 15.996
+     {
+      $grp GenericEntity {
+       door_right9 {
+        components {
+         DoorComponent "{69712E023BD528B1}" {
+          DoorAction SCR_DoorUserAction "{69712E02245A70F4}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          OpenBothWays 0
+          DoorWidthIsXYZ X
+          AngleRange -90
+          ClosedAngle 0
+          InitialAngle 0
+         }
+         MeshObject "{69712E02ACFF4F8B}" {
+          Object "{7CE6C3E60704D26E}Stores/ATB/Objects/Display_Fridge_door_right/Display_Fridge_door_right.xob"
+         }
+         RigidBody "{697EA9A0A53C3899}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01DD7E3652}" {
+          ActionContexts {
+           UserActionContext "{69712E01DB901B62}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C5E29EDF}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset -0.5 0.9 0
+            }
+           }
+          }
+         }
+        }
+        coords 1.178 0.257 -0.488
+       }
+       door_left9 {
+        components {
+         DoorComponent "{69712E023EE13271}" {
+          DoorAction SCR_DoorUserAction "{69712E022E746E27}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          AngleRange 85
+         }
+         MeshObject "{69712E024E544BDD}" {
+          Object "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
+         }
+         RigidBody "{697EA9A0B964428E}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01D5E2CE19}" {
+          ActionContexts {
+           UserActionContext "{69712E01D45A7A32}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C3978ED8}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset 0.5 0.9 0
+            }
+            Radius 0.65
+           }
+          }
+         }
+        }
+        coords 0.016 0.257 -0.488
+       }
+       door_right10 {
+        components {
+         DoorComponent "{69712E023BD528B1}" {
+          DoorAction SCR_DoorUserAction "{69712E02245A70F4}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+          OpenBothWays 0
+          DoorWidthIsXYZ X
+          AngleRange -85
+          ClosedAngle 0
+          InitialAngle 0
+         }
+         MeshObject "{69712E02ACFF4F8B}" {
+          Object "{7CE6C3E60704D26E}Stores/ATB/Objects/Display_Fridge_door_right/Display_Fridge_door_right.xob"
+         }
+         RigidBody "{697EA9A0BDE9AA76}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01DD7E3652}" {
+          ActionContexts {
+           UserActionContext "{69712E01DB901B62}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C5E29EDF}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset -0.5 0.9 0
+            }
+           }
+          }
+         }
+        }
+        coords -0.02 0.257 -0.488
+       }
+       door_left10 {
+        components {
+         DoorComponent "{69712E023EE13271}" {
+          DoorAction SCR_DoorUserAction "{69712E022E746E27}" {
+           ParentContextList {
+            "SCR_DoorUserAction"
+           }
+           UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
+            m_sIconName "open-door"
+           }
+          }
+         }
+         MeshObject "{69712E024E544BDD}" {
+          Object "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
+         }
+         RigidBody "{697EA9A0B1A3208D}" {
+          ModelGeometry 1
+         }
+         ActionsManagerComponent "{69712E01D5E2CE19}" {
+          ActionContexts {
+           UserActionContext "{69712E01D45A7A32}" {
+            UIInfo SCR_ActionUIInfo "{69712E01C3978ED8}" {
+             m_sIconName "open-door"
+            }
+            ContextName "SCR_DoorUserAction"
+            Position PointInfo "{50888D37F0EB77E0}" {
+             Offset 0.5 0.9 0
+            }
+            Radius 0.65
+           }
+          }
+         }
+        }
+        coords -1.18 0.257 -0.488
+       }
+      }
+     }
+    }
+    Store_Shelf {
+     components {
+      MeshObject "{697EA9A23BA8A313}" {
+       Object "{AD9179FCFD60D86F}Stores/ATB/Objects/Store_Shelf/Store_shelf.xob"
+      }
+      RigidBody "{697EA9A5A88559E1}" {
+       ModelGeometry 1
+      }
+     }
+     coords -1.245 0.841 2.435
+    }
+    Store_Shelf2 {
+     components {
+      MeshObject "{697EA9A23BA8A313}" {
+       Object "{AD9179FCFD60D86F}Stores/ATB/Objects/Store_Shelf/Store_shelf.xob"
+      }
+      RigidBody "{697EA9A5AC25F95A}" {
+       ModelGeometry 1
+      }
+     }
+     coords -1.256 0.841 7.087
+    }
+    Store_Shelf3 {
+     components {
+      MeshObject "{697EA9A23BA8A313}" {
+       Object "{AD9179FCFD60D86F}Stores/ATB/Objects/Store_Shelf/Store_shelf.xob"
+      }
+      RigidBody "{697EA9A554CD1274}" {
+       ModelGeometry 1
+      }
+     }
+     coords -1.267 0.841 -2.478
+    }
+    Store_Shelf4 {
+     components {
+      MeshObject "{697EA9A23BA8A313}" {
+       Object "{AD9179FCFD60D86F}Stores/ATB/Objects/Store_Shelf/Store_shelf.xob"
+      }
+      RigidBody "{697EA9A5515A023D}" {
+       ModelGeometry 1
+      }
+     }
+     coords -1.299 0.841 -7.208
+    }
+    Store_Shelf5 {
+     components {
+      MeshObject "{697EA9A23BA8A313}" {
+       Object "{AD9179FCFD60D86F}Stores/ATB/Objects/Store_Shelf/Store_shelf.xob"
+      }
+      RigidBody "{697EA9A55D0A7793}" {
+       ModelGeometry 1
+      }
+     }
+     coords -1.39 0.841 -12.131
+    }
+   }
   }
  }
- coords 1731.162 39.106 2844.249
- angles 0 -101.611 0
  {
-  $grp GenericEntity {
-   window_90x40_1_left {
-    components {
-     MeshObject "{69551ED9624E2D7B}" {
-      Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
-     }
-     RigidBody "{69551ED929A1149E}" {
-      ResponseIndex "TinyDestructible"
-      ModelGeometry 1
-      Static 1
-     }
-     SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
-      "Additional hit zones" {
-       SCR_WindowHitZone default {
-        HZDefault 1
-       }
-      }
-      m_fBaseHealth 1
-      m_fForceToDamageScale 350
-      m_DestroySpawnObjects {
-       SCR_ParticleSpawnable "{69697E6CE1E10A58}" {
-        m_Particle "{22D22AECA6B81B10}Particles/Enviroment/GlassShatter_Pane_01.ptc"
-       }
-      }
-      m_bDeleteAfterFinalPhase 0
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{69551EDE637C67E8}" {
-        m_fPhaseHealth 1
-        m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
-       }
-      }
-      m_eMaterialSoundType BREAK_GLASS_PANE
-     }
-     RplComponent "{69551EDEDC80529E}" {
-     }
-     Hierarchy "{69551EDE9CB8DE36}" {
-     }
-    }
-    coords 12.454 2.255 10.021
-   }
-   window_90x40_1_right {
-    components {
-     MeshObject "{69551ED9624E2D7B}" {
-      Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
-     }
-     RigidBody "{69551ED929A1149E}" {
-      ResponseIndex "TinyDestructible"
-      ModelGeometry 1
-      Static 1
-     }
-     SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
-      "Additional hit zones" {
-       SCR_WindowHitZone default {
-        HZDefault 1
-        "Kinetic multiplier" 4
-        "Explosive multiplier" 90
-       }
-      }
-      m_fBaseHealth 1
-      m_fForceToDamageScale 350
-      m_DestroySpawnObjects {
-       SCR_ParticleSpawnable "{6961087449F2D16D}" {
-        m_Particle "{22D22AECA6B81B10}Particles/Enviroment/GlassShatter_Pane_01.ptc"
-       }
-      }
-      m_bDeleteAfterFinalPhase 0
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{69551EDE637C67E8}" {
-        m_fPhaseHealth 1
-        m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
-       }
-      }
-      m_eMaterialSoundType BREAK_GLASS_PANE
-     }
-     RplComponent "{69551EDEDC80529E}" {
-     }
-     Hierarchy "{69551EDE9CB8DE36}" {
-     }
-    }
-    coords 12.453 2.23 14.01
-   }
-   window_90x40_2_right {
-    components {
-     MeshObject "{69551ED9624E2D7B}" {
-      Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
-     }
-     RigidBody "{69551ED929A1149E}" {
-      ModelGeometry 1
-     }
-     SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
-      "Additional hit zones" {
-       SCR_WindowHitZone default {
-       }
-      }
-      m_fBaseHealth 1
-      m_fForceToDamageScale 350
-      m_bDeleteAfterFinalPhase 0
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{69551EDE637C67E8}" {
-        m_fPhaseHealth 1
-        m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
-       }
-      }
-      m_eMaterialSoundType BREAK_GLASS_PANE
-     }
-     RplComponent "{69551EDEDC80529E}" {
-     }
-     Hierarchy "{69551EDE9CB8DE36}" {
-     }
-    }
-    coords 6.957 2.231 14.009
-   }
-   window_90x40_2_left {
-    components {
-     MeshObject "{69551ED9624E2D7B}" {
-      Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
-     }
-     RigidBody "{69551ED929A1149E}" {
-      ModelGeometry 1
-     }
-     SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
-      "Additional hit zones" {
-       SCR_WindowHitZone default {
-        HZDefault 1
-       }
-      }
-      m_fBaseHealth 1
-      m_fForceToDamageScale 350
-      m_bDeleteAfterFinalPhase 0
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{69551EDE637C67E8}" {
-        m_fPhaseHealth 1
-        m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
-       }
-      }
-      m_eMaterialSoundType BREAK_GLASS_PANE
-     }
-     RplComponent "{69551EDEDC80529E}" {
-     }
-     Hierarchy "{69551EDE9CB8DE36}" {
-     }
-    }
-    coords 6.955 2.207 9.999
-   }
-   window_90x40_3_left {
-    components {
-     MeshObject "{69551ED9624E2D7B}" {
-      Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
-     }
-     RigidBody "{69551ED929A1149E}" {
-      ModelGeometry 1
-     }
-     SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
-      "Additional hit zones" {
-       SCR_WindowHitZone default {
-       }
-      }
-      m_fBaseHealth 1
-      m_fForceToDamageScale 350
-      m_bDeleteAfterFinalPhase 0
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{69551EDE637C67E8}" {
-        m_fPhaseHealth 1
-        m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
-       }
-      }
-      m_eMaterialSoundType BREAK_GLASS_PANE
-     }
-     RplComponent "{69551EDEDC80529E}" {
-     }
-     Hierarchy "{69551EDE9CB8DE36}" {
-     }
-    }
-    coords 11.427 2.217 9.451
-    angles 0 -89.998 0
-   }
-   window_90x40_3_right {
-    components {
-     MeshObject "{69551ED9624E2D7B}" {
-      Object "{2C01A36147F595CC}Stores/ATB/Objects/Glass_window_90x40/90x40_window.xob"
-     }
-     RigidBody "{69551ED929A1149E}" {
-      ModelGeometry 1
-     }
-     SCR_DestructionMultiPhaseComponent "{69551EDEC1036C21}" {
-      "Additional hit zones" {
-       SCR_WindowHitZone default {
-       }
-      }
-      m_fBaseHealth 1
-      m_fForceToDamageScale 350
-      m_bDeleteAfterFinalPhase 0
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{69551EDE637C67E8}" {
-        m_fPhaseHealth 1
-        m_PhaseModel "{0E9903CFB9BDEAFF}Stores/ATB/Objects/Glass_window_90x40_destroyed/90x40_window_destroyed.xob"
-       }
-      }
-      m_eMaterialSoundType BREAK_GLASS_PANE
-     }
-     RplComponent "{69551EDEDC80529E}" {
-     }
-     Hierarchy "{69551EDE9CB8DE36}" {
-     }
-    }
-    coords 7.509 2.231 9.451
-    angles 0 -90 0
-   }
-   window_90_190_1_left {
-    components {
-     MeshObject "{6961087333B1D166}" {
-      Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
-     }
-     RigidBody "{6961087282256BC0}" {
-      ModelGeometry 1
-     }
-    }
-    coords 12.464 0.982 10.029
-   }
-   window_90_190_1_right {
-    components {
-     MeshObject "{696108732CE72C69}" {
-      Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
-     }
-     RigidBody "{696108728CC4EC5B}" {
-      ModelGeometry 1
-     }
-    }
-    coords 12.446 0.975 14.023
-   }
-   window_90_190_3_left {
-    components {
-     MeshObject "{69610872D0E26880}" {
-      Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
-     }
-     RigidBody "{696108728AFBC72A}" {
-      ModelGeometry 1
-     }
-    }
-    coords 11.442 0.957 9.423
-    angles 0 90 0
-   }
-   window_90_190_3_right {
-    components {
-     MeshObject "{69610872CAA64361}" {
-      Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
-     }
-     RigidBody "{696108728843D991}" {
-      ModelGeometry 1
-     }
-    }
-    coords 7.471 0.945 9.445
-    angles 0 90 0
-   }
-   window_90_190_2_left {
-    components {
-     MeshObject "{69610872F108CB07}" {
-      Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
-     }
-     RigidBody "{69610872B58CC0C7}" {
-      ModelGeometry 1
-     }
-    }
-    coords 6.973 0.981 10.002
-   }
-   window_90_190_2_right {
-    components {
-     MeshObject "{69610872F9BF12C2}" {
-      Object "{0DF932190396DFA5}Stores/ATB/Objects/Glass_window_90_190/90x190_window.xob"
-     }
-     RigidBody "{6961087285BD8F6A}" {
-      ModelGeometry 1
-     }
-    }
-    coords 6.959 0.972 14.017
-   }
-   Display_Fridge {
-    components {
-     MeshObject "{69711DCDF4FB6775}" {
-      Object "{ED2AD96454A9847B}Stores/ATB/Objects/Display_Fridge/Display_Fridge.xob"
-     }
-    }
-    coords 0.166 -0.02 15.911
-    {
-     $grp GenericEntity {
-      door_right {
-       components {
-        DoorComponent "{69712E023BD528B1}" {
-         DoorAction SCR_DoorUserAction "{69712E02245A70F4}" {
-          ParentContextList {
-           "SCR_DoorUserAction"
-          }
-          UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
-           m_sIconName "open-door"
-          }
-         }
-         OpenBothWays 0
-         DoorWidthIsXYZ X
-         AngleRange -90
-         ClosedAngle 0
-         InitialAngle 0
-        }
-        MeshObject "{69712E02ACFF4F8B}" {
-         Object "{7CE6C3E60704D26E}Stores/ATB/Objects/Display_Fridge_door_right/Display_Fridge_door_right.xob"
-        }
-        ActionsManagerComponent "{69712E01DD7E3652}" {
-         ActionContexts {
-          UserActionContext "{69712E01DB901B62}" {
-           UIInfo SCR_ActionUIInfo "{69712E01C5E29EDF}" {
-            m_sIconName "open-door"
-           }
-           ContextName "SCR_DoorUserAction"
-           Position PointInfo "{50888D37F0EB77E0}" {
-            Offset -0.5 0.9 0
-           }
-          }
-         }
-        }
-       }
-       coords 1.178 0.257 -0.488
-      }
-      door_left {
-       components {
-        DoorComponent "{69712E023EE13271}" {
-         DoorAction SCR_DoorUserAction "{69712E022E746E27}" {
-          ParentContextList {
-           "SCR_DoorUserAction"
-          }
-          UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
-           m_sIconName "open-door"
-          }
-         }
-         AngleRange 85
-        }
-        MeshObject "{69712E024E544BDD}" {
-         Object "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
-        }
-        ActionsManagerComponent "{69712E01D5E2CE19}" {
-         ActionContexts {
-          UserActionContext "{69712E01D45A7A32}" {
-           UIInfo SCR_ActionUIInfo "{69712E01C3978ED8}" {
-            m_sIconName "open-door"
-           }
-           ContextName "SCR_DoorUserAction"
-           Position PointInfo "{50888D37F0EB77E0}" {
-            Offset 0.5 0.9 0
-           }
-           Radius 0.65
-          }
-         }
-        }
-       }
-       coords 0.016 0.257 -0.488
-      }
-      door_right2 {
-       components {
-        DoorComponent "{69712E023BD528B1}" {
-         DoorAction SCR_DoorUserAction "{69712E02245A70F4}" {
-          ParentContextList {
-           "SCR_DoorUserAction"
-          }
-          UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
-           m_sIconName "open-door"
-          }
-         }
-         OpenBothWays 0
-         DoorWidthIsXYZ X
-         AngleRange -85
-         ClosedAngle 0
-         InitialAngle 0
-        }
-        MeshObject "{69712E02ACFF4F8B}" {
-         Object "{7CE6C3E60704D26E}Stores/ATB/Objects/Display_Fridge_door_right/Display_Fridge_door_right.xob"
-        }
-        ActionsManagerComponent "{69712E01DD7E3652}" {
-         ActionContexts {
-          UserActionContext "{69712E01DB901B62}" {
-           UIInfo SCR_ActionUIInfo "{69712E01C5E29EDF}" {
-            m_sIconName "open-door"
-           }
-           ContextName "SCR_DoorUserAction"
-           Position PointInfo "{50888D37F0EB77E0}" {
-            Offset -0.5 0.9 0
-           }
-          }
-         }
-        }
-       }
-       coords -0.02 0.257 -0.488
-      }
-      door_left2 {
-       components {
-        DoorComponent "{69712E023EE13271}" {
-         DoorAction SCR_DoorUserAction "{69712E022E746E27}" {
-          ParentContextList {
-           "SCR_DoorUserAction"
-          }
-          UIInfo SCR_ActionUIInfo "{64DCE4226956D150}" {
-           m_sIconName "open-door"
-          }
-         }
-        }
-        MeshObject "{69712E024E544BDD}" {
-         Object "{8AC17EC8310D1449}Stores/ATB/Objects/Display_Fridge_door_left/Display_Fridge_door_left.xob"
-        }
-        ActionsManagerComponent "{69712E01D5E2CE19}" {
-         ActionContexts {
-          UserActionContext "{69712E01D45A7A32}" {
-           UIInfo SCR_ActionUIInfo "{69712E01C3978ED8}" {
-            m_sIconName "open-door"
-           }
-           ContextName "SCR_DoorUserAction"
-           Position PointInfo "{50888D37F0EB77E0}" {
-            Offset 0.5 0.9 0
-           }
-           Radius 0.65
-          }
-         }
-        }
-       }
-       coords -1.18 0.257 -0.488
-      }
-     }
-    }
+  components {
+   MeshObject "{697EA9A64F84FE96}" {
+    Object "{E69F95FBB04BE61F}Stores/ATB/Objects/Signs/Egg/Egg_sign.xob"
    }
   }
+  coords 1734.611 41.706 2860.749
+  angles 90 0 0
  }
 }
 SCR_DestructibleBuildingEntity : "{CD370ECB385DE67A}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L01.et" {

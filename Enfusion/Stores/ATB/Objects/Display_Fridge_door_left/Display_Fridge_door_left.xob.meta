@@ -18,6 +18,15 @@ MetaFileClass {
     MeshParam Door_handler {
     }
    }
+   GeometryParams {
+    GeometryParam UCX_Display_Fridge_door {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
    Common TXOCommonClass "{69712E02AF471457}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
   }
