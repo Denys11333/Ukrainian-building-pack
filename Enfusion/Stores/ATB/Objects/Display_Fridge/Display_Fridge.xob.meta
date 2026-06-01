@@ -14,6 +14,7 @@ MetaFileClass {
    }
    GeometryParams {
     GeometryParam UTM_Display_Fridge {
+     LayerPreset "Prop"
      SurfaceProperties {
       "{536BF67B2052B869}material/metal.gamemat"
      }

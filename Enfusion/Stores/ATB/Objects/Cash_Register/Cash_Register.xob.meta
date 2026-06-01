@@ -18,8 +18,9 @@ MetaFileClass {
    }
    GeometryParams {
     GeometryParam "UTM_Сash register" {
+     LayerPreset "Prop"
      SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
+      "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
      }
      Mass 0
      Margin 0

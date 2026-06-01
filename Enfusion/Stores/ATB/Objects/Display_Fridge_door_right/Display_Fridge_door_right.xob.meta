@@ -20,8 +20,9 @@ MetaFileClass {
    }
    GeometryParams {
     GeometryParam "UCX_Display_Fridge_door.001" {
+     LayerPreset "GlassFire"
      SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
+      "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
      }
      Mass 0
      Margin 0
