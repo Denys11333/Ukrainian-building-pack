@@ -461,7 +461,7 @@ $grp GenericEntity {
        ModelGeometry 1
       }
      }
-     coords 6.325 0.886 7.177
+     coords 6.325 1 7.177
     }
     Cash_Register2 {
      components {
@@ -472,7 +472,7 @@ $grp GenericEntity {
        ModelGeometry 1
       }
      }
-     coords 6.257 0.928 2.482
+     coords 6.257 1 2.482
     }
     Cash_Register3 {
      components {
@@ -483,7 +483,7 @@ $grp GenericEntity {
        ModelGeometry 1
       }
      }
-     coords 6.189 0.908 -2.44
+     coords 6.189 1 -2.44
     }
     Cash_Register4 {
      components {
@@ -494,7 +494,7 @@ $grp GenericEntity {
        ModelGeometry 1
       }
      }
-     coords 6.109 0.909 -7.184
+     coords 6.109 1 -7.184
     }
     Cash_Register5 {
      components {
@@ -505,7 +505,7 @@ $grp GenericEntity {
        ModelGeometry 1
       }
      }
-     coords 6.2 0.905 -11.995
+     coords 6.2 1 -11.995
     }
     Display_Fridge2 {
      components {
